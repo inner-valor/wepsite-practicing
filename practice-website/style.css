@@ -49,6 +49,7 @@ li a {
 
 li a.navLink:hover {
    background-color:rgb(153, 57, 1);
+   text-decoration: none;
 }
 
 
