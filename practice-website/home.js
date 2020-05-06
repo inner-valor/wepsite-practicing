@@ -9,13 +9,16 @@ function whoAreYou() {
         
         personalMessage.classList.remove("d-none");
 
-        personalMessage.innerHTML = personalMessage.innerHTML.replace("stranger","back valor");
+        personalMessage.innerHTML = personalMessage.innerHTML + "back valor!";
 
+    } else if(person === "") {
+
+        personalMessage.classList.add("d-none");
     } else {
 
         personalMessage.classList.remove("d-none");
 
-        personalMessage.innerHTML = personalMessage.innerHTML.replace("back valor", "stranger");
+        personalMessage.innerHTML = personalMessage.innerHTML.replace(personalMessage.innerHTML,"welcome "+ person);
 
                 
     }
