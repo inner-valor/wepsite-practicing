@@ -6,21 +6,23 @@
 /* background */
 
 .background {
+    background-image: url(images/background-3199325_960_720.webp);
     background-color: cornflowerblue;
 }
 
 header {
-    background-color: wheat;
+    background-color: #ceeaff;
 }
 
 main {
     height: 50em;
-    background-color: burlywood;
+    background-color: #ceeaff;
+    border: 11px groove #8ba9bf;
 }
 
 /* header */
 header {
-    border: 5px solid brown;
+    border: 11px groove #8ba9bf;
 }
 
 
@@ -29,7 +31,7 @@ header {
 
 nav ul{
     margin-bottom: 0;
-    background-color: wheat;
+    background-color: #c5def1;
     list-style-type: none;
     overflow: hidden;
 }
@@ -73,9 +75,7 @@ li a.navLink:hover {
 }
 
 /* active link */
-.active {
-    background-color: rgb(153, 57, 1);
-}
+
 
 /* main */
 
@@ -91,4 +91,29 @@ p {
 h2 {
     position: relative;
     top: 50px;
+}
+
+div {
+    position: relative;
+    top: 50px;
+    border: 6px double #ceeaff;
+    background-color: #8ac7f5;
+
+
+}
+
+main p {
+   height: 79px;
+   left: 20px; 
+   color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: larger;
+}
+
+.preview {
+    position: relative;
+    top: -13px;
+    left: 20px;
+    width: 254px;
+    background-color: #0572c5;
 }
